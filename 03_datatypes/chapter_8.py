@@ -39,3 +39,9 @@ strong_brew=["black tea","water"] *3
 print(f"String brew:{strong_brew}")
 
 
+
+#bytearray
+raw_spice_data=bytearray(b"CINNAMON")
+print(f"Bytes: {raw_spice_data}")
+
+
