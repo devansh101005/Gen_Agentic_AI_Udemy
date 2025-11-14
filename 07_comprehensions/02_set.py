@@ -13,5 +13,10 @@ print(unique_chai)
 
 recipes={
     "Masala Chai":["ginger","card","clove"],
-    "Elaichi "
+    "Elaichi":["card","milk"],
+    "Spicy Chai":["ginger","black pepper","clove"],
 }
+
+unique_spices={spice for ingredients in recipes.values() for spice in ingredients}
+
+print(unique_spices)
